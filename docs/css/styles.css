@@ -9,6 +9,11 @@
   box-sizing: border-box;
 }
 
+html {
+
+  background: linear-gradient(0deg, rgba(23,68,6,1) 0%, rgba(167,203,157,1) 100%);
+}
+
 body {
   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
   /*your style rules go in here */
@@ -17,7 +22,7 @@ body {
   padding-top: 3em;
   /* background-image: url("../images/pexels-pixabay-235985.jpg"); */
 /* background-repeat: repeat; */
-background: linear-gradient(0deg, rgba(23,68,6,1) 0%, rgba(167,203,157,1) 100%);
+
 }
 
 header {
