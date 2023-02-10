@@ -15,8 +15,9 @@ body {
   font-family: 'Roboto Slab', Verdana, serif;
   background-color: rgb(188, 238, 176);
   padding-top: 3em;
-/*   background-image: url("../images/pexels-pixabay-235985.jpg"); */
-background-repeat: repeat;
+  /* background-image: url("../images/pexels-pixabay-235985.jpg"); */
+/* background-repeat: repeat; */
+background: linear-gradient(0deg, rgba(23,68,6,1) 0%, rgba(167,203,157,1) 100%);
 }
 
 header {
