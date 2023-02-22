@@ -37,6 +37,13 @@ audio {
   width: 100%;
 }
 
+header {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 2em 0;
+  color:#40710e;
+  border-bottom: 3px solid rgb(162, 171, 150)
+}
+
 .takemeup {
   position: fixed;
   bottom: 0;
@@ -100,8 +107,6 @@ border: 2px solid green;
 display:none;
 } */
 
-div.sceneImage {
-}
 
 .act {
   font-size: 2rem;
@@ -123,57 +128,55 @@ div.sceneImage {
   margin-top: 0.5rem;
 }
 
-p.character {
+.character {
   font-size: 1.2em;
   color: rgb(70, 115, 12);
   font-weight: bold;
   margin: 12px 0 0 0px;
 }
-p.charactername {
+.charactername {
 }
-h1.dramatishead {
+.dramatishead {
 }
 
-h2.location {
+.location {
   font-size: 1rem;
   color: white;
   background-color: rgb(13, 125, 101);
   margin: 2rem 0;
   padding: 1.2rem;
 }
-p.play_location {
+.play_location {
   font-size: 1.8rem;
   color: #0b8610;
   margin-top: 2rem;
 }
-p.prose {
+.prose {
   margin: 0 0 0 50px;
 }
 
-p.song {
-  text-align: center;
-}
-
-p.song {
+.song {
   margin: 0.6rem 0 0 0;
   color: rgb(60, 106, 28);
+  text-align: center;
 }
-h2.stagedirection {
+.stagedirection {
   text-align: right;
   font-size: 0.9em;
+  
 }
 
-p.verseline {
+.verseline {
   margin: 0 0 0 50px;
   margin-bottom: 6px;
   text-indent: -20px;
 }
 
-span.character_role {
+.character_role {
   color: green;
 }
 
-span.stage_directions_inline {
+.stage_directions_inline {
   color: rgb(59, 139, 119);
 }
 
